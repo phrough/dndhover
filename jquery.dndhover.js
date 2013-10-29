@@ -1,10 +1,11 @@
 /*
 
-I don't know where this was originally sourced, but I've 
-made some slight tweaks. Drop events will now reset the 
-collection so the dndHoverStart event fires as expected
-for subsequent dragenter events following a drop event.
-I've also removed calls to size() (deprecated).
+Originally sourced from:
+http://stackoverflow.com/a/10906204/1601539
+
+Drop events will now reset the collection so the dndHoverStart 
+event fires as expected for subsequent dragenter events following
+a drop event. I've also removed calls to size() (deprecated).
 jeff@phrough.com
 
 IMPLEMENTATION EXAMPLE
